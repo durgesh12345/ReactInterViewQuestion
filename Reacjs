@@ -1,0 +1,36 @@
+What is ReactJS and what are its key features?
+ReactJS is a popular JavaScript library for building user interfaces.
+Key features of ReactJS include the use of a virtual DOM, component-based architecture, and one-way data flow.
+What is a virtual DOM and how does it work?
+The virtual DOM is a lightweight representation of the actual DOM (Document Object Model) used by the browser.
+When a change is made to the UI, React updates the virtual DOM, calculates the difference between the new and old versions, and then updates only the necessary parts of the actual DOM.
+What is JSX and why is it used in React?
+JSX is a syntax extension that allows you to write HTML-like code in your JavaScript.
+JSX is used in React to describe the structure and content of components in a more intuitive way, making it easier to build and maintain complex UIs.
+What are components in React and how do they work?
+Components are the building blocks of React applications and can be thought of as reusable code blocks that encapsulate UI logic.
+Components can be either functional or class-based and can contain state and props.
+What is the difference between state and props in React?
+State is used to manage data that can change within a component.
+Props are used to pass data from a parent component to a child component.
+What is the purpose of lifecycle methods in React?
+Lifecycle methods are special methods that get called at certain points in a component's life cycle, such as when it's mounted or updated.
+They are used to perform certain actions at specific times, such as initializing state or fetching data.
+What is Redux and how does it work with React?
+Redux is a popular state management library for JavaScript applications.
+It works with React by allowing you to manage the state of your entire application in a single store, making it easier to share data between components and manage complex state logic.
+What are React hooks and how do they work?
+React hooks are a feature introduced in React 16.8 that allow you to use state and other React features in functional components.
+They work by allowing you to "hook into" the React lifecycle and state management without having to use class-based components. Some common hooks include useState and useEffect.
+What is server-side rendering in React?
+Server-side rendering is the process of rendering a React application on the server and sending the resulting HTML to the client, instead of rendering the app on the client's browser.
+It can improve performance and accessibility, and is particularly useful for improving SEO.
+What are some best practices for optimizing React performance?
+Avoid unnecessary re-renders by using shouldComponentUpdate or React.memo.
+Use the React DevTools to identify performance bottlenecks and optimize code accordingly.
+Use lazy loading and code splitting to
+
+
+
+
+
